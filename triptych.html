@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triptych Art | Traditional Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="parallax-header triptych-header">
+        <div class="header-overlay"></div>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <span class="english">Traditional Art Gallery</span>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="triptych.html" class="active">Triptych</a>
+                    <a href="warrior.html">Warriors</a>
+                    <div class="nav-highlight"></div>
+                </div>
+                <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1><span class="reveal-text">Classic</span> <span class="reveal-text delay-1">Triptych</span></h1>
+            <p class="subtitle">Three panels of artistic beauty</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="artwork-section">
+            <div class="section-header">
+                <h2>The Artwork in Three Parts</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="triptych-container">
+                <div class="triptych-panel left-panel">
+                    <div class="panel-content">
+                        <img src="images/left side-100.jpg" alt="Left panel: Distant view" class="panel-image">
+                        <div class="panel-info">
+                            <h3>Left Panel</h3>
+                            <p>This panel establishes the setting, showing the distant landscape that frames the narrative.</p>
+                            <button class="info-toggle"></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="triptych-panel center-panel">
+                    <div class="panel-content">
+                        <img src="images/middle-100.jpg" alt="Center panel: Main scene" class="panel-image">
+                        <div class="panel-info">
+                            <h3>Center Panel</h3>
+                            <p>The focal point of the composition, featuring the primary subjects and action.</p>
+                            <button class="info-toggle"></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="triptych-panel right-panel">
+                    <div class="panel-content">
+                        <img src="images/right side-100.jpg" alt="Right panel: Complementary scene" class="panel-image">
+                        <div class="panel-info">
+                            <h3>Right Panel</h3>
+                            <p>Completes the narrative, often showing secondary characters or consequences.</p>
+                            <button class="info-toggle"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="triptych-controls">
+                <button id="combinePanels" class="cta-button">View Combined</button>
+                <button id="separatePanels" class="cta-button outline">View Separately</button>
+            </div>
+            
+            <div class="artwork-details">
+                <h3>About This Triptych</h3>
+                <p>Created by Lethabo Maluleke.</p>
+            </div>
+        </section>
+    </main>
+
+    <div class="fullscreen-modal">
+        <button class="close-modal">&times;</button>
+        <div class="modal-content">
+            <img src="" alt="" id="modal-image">
+            <div class="modal-nav">
+                <button class="modal-prev">‹</button>
+                <button class="modal-next">›</button>
+            </div>
+            <div class="modal-info">
+                <h3 id="modal-title"></h3>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Traditional Art Gallery</h3>
+                <p>Created by Thabo Molefe and team</p>
+            </div>
+            <div class="footer-section">
+                <h3>Explore More</h3>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="warrior.html">Warrior Art</a>
+                    <a href="#">Collections</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Thabo Molefe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

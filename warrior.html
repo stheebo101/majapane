@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warrior Art | Traditional Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="parallax-header warrior-header">
+        <div class="header-overlay"></div>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <span class="english">Traditional Art Gallery</span>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="triptych.html">Triptych</a>
+                    <a href="warrior.html" class="active">Warriors</a>
+                    <div class="nav-highlight"></div>
+                </div>
+                <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1><span class="reveal-text">Warrior</span> <span class="reveal-text delay-1">Portraits</span></h1>
+            <p class="subtitle">The warrior spirit in art</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="artwork-section">
+            <div class="section-header">
+                <h2>Portrait of a Warrior</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="warrior-container">
+                <div class="warrior-image-container">
+                    <img src="images/SAMURAI color.jpg" alt="Warrior in armor" class="warrior-main-image">
+                    <div class="image-zoom-controls">
+                        <button class="zoom-in">+</button>
+                        <button class="zoom-out">-</button>
+                        <button class="reset-zoom">Reset</button>
+                    </div>
+                </div>
+                
+                <div class="warrior-details">
+                    <h3>Japanese Samurai</h3>
+                    <p class="artist">By Koketso Sekete</p>
+                    <div class="detail-tabs">
+                        <div class="tab-buttons">
+                            <button class="tab-button active" data-tab="description">Description</button>
+                            <button class="tab-button" data-tab="armor">Armor Details</button>
+                            <button class="tab-button" data-tab="history">Historical Context</button>
+                        </div>
+                        <div class="tab-content">
+                            <div id="description" class="tab-pane active">
+                                <p>The artist captures both the military might and the refined aesthetic sensibility characteristic of the period.</p>
+                                <p>Notice the intricate details of the armor's lacing and the expressive rendering of the facial features, which convey the subject's formidable character.</p>
+                            </div>
+                            <div id="armor" class="tab-pane">
+                                <ul>
+                                    <li>A detailed face mask</li>
+                                    <li>Chest plate with decorative etching</li>
+                                    <li>Shoulder guards</li>
+                                    <li>Arm covers</li>
+                                </ul>
+                            </div>
+                            <div id="history" class="tab-pane">
+                                <p>This portrait was commissioned shortly before the knight's most famous battle. The artwork reflects the transition from medieval to Renaissance art techniques.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="fullscreen-modal">
+        <button class="close-modal">&times;</button>
+        <div class="modal-content">
+            <img src="" alt="" id="modal-image">
+            <div class="modal-nav">
+                <button class="modal-prev">‹</button>
+                <button class="modal-next">›</button>
+            </div>
+            <div class="modal-info">
+                <h3 id="modal-title"></h3>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Traditional Art Gallery</h3>
+                <p>Created by Thabo Molefe and team</p>
+            </div>
+            <div class="footer-section">
+                <h3>Explore More</h3>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="triptych.html">Triptych Art</a>
+                    <a href="#">Collections</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Thabo Molefe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

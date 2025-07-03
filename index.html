@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traditional Art Gallery | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loading-screen">
+        <div class="loading-spinner"></div>
+        <p>Loading the beauty of art...</p>
+    </div>
+
+    <header class="parallax-header">
+        <div class="header-overlay"></div>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <span class="english">Traditional Art Gallery</span>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html" class="active">Home</a>
+                    <a href="triptych.html">Triptych</a>
+                    <a href="warrior.html">Warriors</a>
+                    <div class="nav-highlight"></div>
+                </div>
+                <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1><span class="reveal-text">The Elegance of</span> <span class="reveal-text delay-1">Traditional Art</span></h1>
+            <p class="subtitle">Discover centuries of artistic tradition</p>
+            <a href="#explore" class="scroll-down">
+                <span>Scroll</span>
+                <svg viewBox="0 0 24 24">
+                    <path d="M7,10l5,5l5-5H7z"/>
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section id="explore" class="intro-section">
+            <div class="section-header">
+                <h2>Discover Our Collection</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="intro-grid">
+                <div class="intro-text">
+                    <p>Our gallery showcases masterpieces from different periods of art history, celebrating the creativity and skill of artists across generations.</p>
+                    <a href="triptych.html" class="cta-button">View Gallery</a>
+                </div>
+                <div class="intro-image">
+                    <div class="image-frame">
+                        <img src="images/WhatsApp Image 2025-07-02 at 22.58.38_ad1c9bba.jpg" alt="Artistic landscape" class="hover-zoom">
+                        <div class="frame-decoration"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-section">
+            <div class="section-header">
+                <h2>Featured Artworks</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="artwork-carousel">
+                <div class="carousel-track">
+                    <div class="carousel-item">
+                        <a href="triptych.html">
+                            <img src="images/middle-100.jpg" alt="Triptych Art">
+                            <div class="artwork-info">
+                                <h3>Classic Triptych</h3>
+                                <p>19th Century</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="warrior.html">
+                            <img src="images/SAMURAI color.jpg" alt="Warrior Portrait">
+                            <div class="artwork-info">
+                                <h3>Warrior Portrait</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <button class="carousel-prev">‹</button>
+                <button class="carousel-next">›</button>
+            </div>
+        </section>
+
+        <section class="team-section">
+            <div class="section-header">
+                <h2>Our Creative Team</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/stheebo.jpg" alt="Thabo Molefe">
+                        <div class="social-links">
+                          <a href="https://instagram.com/thabo_stheebo" target="_blank">
+                              <svg class="instagram-icon" viewBox="0 0 24 24">
+                                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                              </svg>
+                          </a>
+                      </div>
+                    </div>
+                    <h3>Thabo Molefe</h3>
+                    <p class="position">Web Developer</p>
+                    <p class="bio">Creator and developer of this gallery website, specializing in interactive digital experiences.</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/malulu.jpg" alt="Lethabo Maluleka">
+                        <div class="social-links">
+                          <a href="https://instagram.com/jxt.lulu.03" target="_blank">
+                              <svg class="instagram-icon" viewBox="0 0 24 24">
+                                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                              </svg>
+                          </a>
+                      </div>
+                    </div>
+                    <h3>Lethabo Maluleka</h3>
+                    <p class="position">Graphic Designer</p>
+                    <p class="bio">Creative designer responsible for the visual identity and artwork curation of the gallery.</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/kokla.jpg" alt="Koketso Sekete">
+                        <div class="social-links">
+                          <a href="https://instagram.com/melanin.king.rsa" target="_blank">
+                              <svg class="instagram-icon" viewBox="0 0 24 24">
+                                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                              </svg>
+                          </a>
+                      </div>
+                    </div>
+                    <h3>Koketso Sekete</h3>
+                    <p class="position">Animator</p>
+                    <p class="bio">Brings artworks to life through motion graphics and interactive animations.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Traditional Art Gallery</h3>
+                <p>Created by Thabo Molefe and team to celebrate artistic traditions.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Thabo Molefe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
